@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'young serif' , 'serif';
+}
+
+.container{
+    padding: 50px;
+}
+
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+.section-one__contact{
+background-color: greenyellow;
+color:rgb(0, 0, 0);
+padding-bottom: 5px;
+text-decoration: none;
+display: inline-block;
+border-radius: 5px;
+
+}
+
+.section-one__name{
+    font-size: 70px;
+    color: greenyellow;
+    
+   
+}
+.section-one__role{
+    font-size: 30px;
+    color: whitesmoke;
+    padding-bottom: 5px;
+   
+    
+}
+.section-two,.section-three,.section-four,.section-five{
+
+    margin-top:20px;
+}
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+
+    margin-top:10px;
+}
+.section-five{
+    background-color: black;
+    color: greenyellow;
+    padding: 20px;
+}
+
+.section-five__title a{
+    color:black;
+
+}
+.section-five__title{
+    background-color: greenyellow;
+color:rgb(0, 0, 0);
+padding-bottom: 5px;
+text-decoration: none;
+display: inline-block;
+border-radius: 5px;
+
+}
+.section-five__desc,.section-three__desc,.section-four__desc{
+    list-style: none;
+}
+.section-three{
+    background-color: #6462fd;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.section-four{
+    background-color:greenyellow;
+color:black;
+padding: 20px;
+display: inline-block;
+height: 200px;
+border-radius: 10px;
+vertical-align: top;
+}
+
+.contact_form{
+    margin-top: 20px;
+}
+.contact-form__input,.contact-form__textarea,.contact-form__submit{
+    margin-top: 10px;
+
+}
+.contact-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+.contact-form__textarea{
+    padding: 10px;
+    border:none;
+    border-bottom: solid black 1px;
+}
+.contact-form__email{
+    padding: 10px;
+    border:none;
+    border-bottom: solid black 1px;
+}
+.contact-form__submit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: greenyellow;
+    background-color: black;
+}
